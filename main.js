@@ -10,11 +10,11 @@ let logoAnim = anime({
 });
 
 let logo = $('#logo');
-$(logo).hide()
-$(logo).fadeIn(1300);
+$('#logo').hide()
+$('#logo').fadeIn(1300);
 
 $(document).ready(function() {
-    $(logo).show();
+    $('#logo').show();
     logo = logoAnim;
     setTimeout(function() {
         $('#logo').fadeOut(500);
